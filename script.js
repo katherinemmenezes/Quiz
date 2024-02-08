@@ -1,95 +1,96 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a finalidade do comando 'console.log()' em JavaScript?",
-      respostas: [
-        "Exibir uma mensagem de erro",
-        "Imprimir dados no console",
-        "Criar uma variável"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a função do operador '===' em comparações em JavaScript?",
-      respostas: [
-        "Comparação de valores sem considerar o tipo",
-        "Atribuição de valores",
-        "Comparação estrita de valores e tipos"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Como se declara uma variável em JavaScript?",
-      respostas: [
-        "let myVar;",
-        "const myVar = 10;",
-        "ambas as opções acima estão corretas"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é uma função em JavaScript?",
-      respostas: [
-        "Um tipo de dado",
-        "Um bloco de código reutilizável",
-        "Uma variável global"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a diferença entre 'let' e 'const' na declaração de variáveis?",
-      respostas: [
-        "Nenhuma, são sinônimos",
-        "let é usado para valores constantes, const para variáveis",
-        "let permite reatribuição, const cria variáveis imutáveis"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é o DOM em JavaScript?",
-      respostas: [
-        "Um método de criptografia",
-        "Um modelo de objeto para manipular documentos HTML",
-        "Uma linguagem de programação"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se realiza uma iteração sobre os elementos de um array em JavaScript?",
-      respostas: [
-        "Usando a estrutura 'if-else'",
-        "Com a declaração 'switch'",
-        "Utilizando loops como 'for' ou 'forEach'"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é o JSON em JavaScript?",
-      respostas: [
-        "Um método de formatação de texto",
-        "Uma linguagem de estilização",
-        "Um formato de dados leve e intercambiável"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a diferença entre 'null' e 'undefined' em JavaScript?",
-      respostas: [
-        "São iguais, usados de forma intercambiável",
-        "'null' representa a ausência de valor, 'undefined' é atribuído explicitamente",
-        "Ambos representam valores vazios"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se adiciona um evento a um elemento HTML usando JavaScript?",
-      respostas: [
-        "Apenas com CSS",
-        "Usando o atributo 'event'",
-        "Através do método 'addEventListener'"
-      ],
-      correta: 2
-    },
-  ];
+  {
+    pergunta: "Quem foi o primeiro presidente dos Estados Unidos?",
+    respostas: [
+      "Thomas Jefferson",
+      "George Washington",
+      "Abraham Lincoln"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o maior rio do mundo em volume de água?",
+    respostas: [
+      "Rio Amazonas",
+      "Rio Nilo",
+      "Rio Mississipi"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o autor da obra 'Grande Sertão: Veredas'?",
+    respostas: [
+      "Machado de Assis",
+      "Clarice Lispector",
+      "João Guimarães Rosa"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o processo natural que permite que plantas façam seu próprio alimento?",
+    respostas: [
+      "Fotossíntese",
+      "Respiração",
+      "Transpiração"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Em que ano ocorreu a Independência do Brasil?",
+    respostas: [
+      "1822",
+      "1500",
+      "1889"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quem pintou a obra 'Mona Lisa'?",
+    respostas: [
+      "Leonardo da Vinci",
+      "Pablo Picasso",
+      "Vincent van Gogh"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é a capital da Austrália?",
+    respostas: [
+      "Melbourne",
+      "Sydney",
+      "Camberra"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Quem é o autor da peça de teatro 'Romeu e Julieta'?",
+    respostas: [
+      "William Shakespeare",
+      "Anton Chekhov",
+      "Henrik Ibsen"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o maior oceano do mundo?",
+    respostas: [
+      "Oceano Atlântico",
+      "Oceano Índico",
+      "Oceano Pacífico"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Quantos países existem na União Europeia?",
+    respostas: [
+      "25",
+      "28",
+      "30"
+    ],
+    correta: 1
+  }
+];
+
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
   
